@@ -71,7 +71,7 @@ The Domain Controller is the authoritative source for every identity decision in
 
 ### Step 1 — Deployed Windows Server 2025 on Azure
 
-Provisioned a **Standard_B2s** VM in Azure (2 vCPU, 4GB RAM) running Windows Server 2025 Datacenter. Configured the NSG to allow RDP on port 3389, then connected via the native Remote Desktop app with clipboard sharing enabled so commands could be copied in cleanly.
+Provisioned a **Standard_B2s** VM in Azure (2 vCPU, 4GB RAM) running Windows Server 2025 Datacenter. Configured the NSG to allow RDP on port 3389, then connected via the native Remote Desktop app.
 
 Stopped the VM at the end of every session to avoid burning through free tier credits — a B2s costs roughly $0.05/hour when running.
 
