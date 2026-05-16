@@ -312,7 +312,7 @@ The OU and group structure clicked for me as a design problem, not just a config
 
 The GPO section was the most practically impactful. The USB block in particular — one `Enabled` toggle in Group Policy Management closes a data exfiltration vector across every machine in the OU simultaneously. No agent to install, no per-machine visit, no configuration drift. That kind of centralised enforcement is why Group Policy exists and why organisations that don't use it correctly end up with inconsistent security postures across their fleet.
 
-Running everything through PowerShell alongside the GUI also reinforced something important: the GUI is for understanding, PowerShell is for doing it at scale. Clicking through wizards to understand the structure makes sense once. Scripting it means it's repeatable, auditable, and can be handed to someone else to run — which is how real sysadmin work actually gets done.
+Running everything through PowerShell alongside the GUI also reinforced something important: the GUI is for understanding, PowerShell is for doing it at scale. Clicking through wizards to understand the structure makes sense once. Scripting it means it's repeatable, auditable, and can be handed to someone else to run.
 
 ---
 
