@@ -2,7 +2,7 @@
 
 **Environment:** Windows Server 2025 · Azure VM (Standard_B2s) · PowerShell ISE  
 **Cloud Provider:** Microsoft Azure  
-**Certification Alignment:** CompTIA Network+ · Security+ · Azure Administrator
+
 
 ---
 
